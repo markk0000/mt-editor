@@ -1,0 +1,162 @@
+.mt-container .mt-input body, .mt-container .mt-input div, .mt-container .mt-input span, .mt-container .mt-input applet, .mt-container .mt-input object, .mt-container .mt-input iframe, .mt-container .mt-input h1, .mt-container .mt-input h2, .mt-container .mt-input h3, .mt-container .mt-input h4, .mt-container .mt-input h5, .mt-container .mt-input h6, .mt-container .mt-input p, .mt-container .mt-input blockquote, .mt-container .mt-input pre, .mt-container .mt-input a, .mt-container .mt-input abbr, .mt-container .mt-input acronym, .mt-container .mt-input address, .mt-container .mt-input big, .mt-container .mt-input cite, .mt-container .mt-input code, .mt-container .mt-input del, .mt-container .mt-input dfn, .mt-container .mt-input em, .mt-container .mt-input img, .mt-container .mt-input ins, .mt-container .mt-input kbd, .mt-container .mt-input q, .mt-container .mt-input s, .mt-container .mt-input samp, .mt-container .mt-input small, .mt-container .mt-input strike, .mt-container .mt-input strong, .mt-container .mt-input sub, .mt-container .mt-input sup, .mt-container .mt-input tt, .mt-container .mt-input var, .mt-container .mt-input b, .mt-container .mt-input u, .mt-container .mt-input i, .mt-container .mt-input center, .mt-container .mt-input dl, .mt-container .mt-input dt, .mt-container .mt-input dd, .mt-container .mt-input ol, .mt-container .mt-input ul, .mt-container .mt-input li, .mt-container .mt-input fieldset, .mt-container .mt-input form, .mt-container .mt-input label, .mt-container .mt-input legend, .mt-container .mt-input table, .mt-container .mt-input caption, .mt-container .mt-input tbody, .mt-container .mt-input tfoot, .mt-container .mt-input thead, .mt-container .mt-input tr, .mt-container .mt-input th, .mt-container .mt-input td, .mt-container .mt-input article, .mt-container .mt-input aside, .mt-container .mt-input canvas, .mt-container .mt-input details, .mt-container .mt-input embed, .mt-container .mt-input figure, .mt-container .mt-input figcaption, .mt-container .mt-input footer, .mt-container .mt-input header, .mt-container .mt-input hgroup, .mt-container .mt-input menu, .mt-container .mt-input nav, .mt-container .mt-input output, .mt-container .mt-input ruby, .mt-container .mt-input section, .mt-container .mt-input summary, .mt-container .mt-input time, .mt-container .mt-input mark, .mt-container .mt-input audio, .mt-container .mt-input video {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-size: 100%;
+     font: inherit;
+     vertical-align: baseline;
+}
+.mt-container {
+    margin: auto;
+}
+.mt-menu {
+    border-radius: 8px 8px 0px 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: inline-block;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.35);
+    padding: 0px 0px;
+}
+.mt-menu div {
+   border-right: 1px solid rgba(0, 0, 0, 0.35);
+   padding: 0px 2px;
+   display: inline-block;
+   height: 100%;
+   float: left;
+}
+ .mt-menu ul {
+     list-style: none;
+     margin: 0;
+     padding: 0px;
+}
+ .mt-menu li:first-child {
+     margin: 0px 2px 0px 0px;
+}
+ .mt-menu li:last-child {
+     margin: 0px 0px 0px 2px;
+}
+ .mt-menu li {
+     margin: 0px 2px;
+     float: left;
+}
+ .mt-menu li a {
+     color: black;
+     display: inline-block;
+}
+ .mt-menu li a:hover {
+     background-color: rgba(128, 128, 128, 0.21);
+}
+ .mt-menu li i {
+     padding: 4px;
+}
+ .mt-menu .mt-delimiter {
+     border: 1px solid rgba(0, 0, 0, 0.35);
+     margin: 0px 4px;
+     height: 100%;
+}
+ .mt-control-container {
+     height: inherit;
+     border: 1px solid rgba(0, 0, 0, 0.35);
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+}
+ .mt-control-container .mt-50:first-child {
+     overflow: hidden;
+}
+ .mt-control-container .mt-50:last-child {
+     overflow: auto;
+     border-left: 1px solid black;
+     padding: 5px;
+}
+ .mt-control-container .mt-50 {
+     width: 50%;
+     float: left;
+}
+ .mt-control-container textarea {
+     width: 100%;
+     min-height: 100%;
+     resize: none;
+     padding: 0;
+     margin: 0;
+     border: none;
+     overflow: auto;
+     outline: none;
+     border-right: 1px solid black;
+}
+ .mt-container .mt-hidden {
+     display: none !important;
+}
+ .mt-github-container {
+}
+ .mt-container .mt-github-container h1 {
+     text-align: center;
+     margin: 0px;
+     padding: 10px 0px;
+     border-bottom: 1px solid black;
+}
+ .mt-container .mt-input-row {
+     width: 90%;
+     margin: auto!important;
+}
+ .mt-container .mt-input-row p {
+     margin-top: 10px;
+     margin-bottom: 5px;
+     text-align: center;
+}
+ .mt-container .mt-input-row input {
+     margin: auto;
+     display: block;
+     width: 90%;
+}
+ .mt-container .mt-github-input h2, .mt-container .mt-file-container h2 {
+     text-align: center;
+     margin: 0px;
+     margin: 10px 0px;
+     font-weight: bold;
+}
+ .mt-container .mt-file-container h2 {
+     font-weight: normal;
+}
+ .mt-container .mt-file-container {
+     width: 90%;
+     text-align: center;
+}
+ .mt-container .mt-file-container label {
+     font-weight: bold;
+     cursor: pointer;
+}
+ .mt-container .mt-input-container {
+     display: inline-block;
+     width: 100%;
+}
+ .mt-container .mt-overflow-auto {
+     overflow: auto!important;
+}
+ .mt-container div.mt-repositories {
+     word-break: break-all;
+     padding: 5px;
+}
+ .mt-container .mt-repositories p {
+     margin-bottom: 8px;
+}
+ .mt-container .mt-repositories p.mt-path {
+     margin-bottom: 15px;
+     text-align: center;
+}
+ .mt-container .mt-repositories #mtGithubDirectories p {
+     cursor: pointer;
+}
+ .mt-container .mt-github-input > p {
+     margin-top: 10px;
+     text-align: center;
+}
+ .mt-container .mt-click {
+     cursor: pointer;
+}
+ .mt-container div.mt-github-input {
+     display: inline-block;
+     width: 100%;
+     border-bottom: 1px solid black;
+}
